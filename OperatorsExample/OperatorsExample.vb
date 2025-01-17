@@ -38,6 +38,18 @@ Module OperatorsExample
         Console.WriteLine(5 Mod 3) 'print the  remainder
         Console.WriteLine()
 
+        'exponent operator
+        Console.Write("5 ^ 3 = ") 'print a string
+        Console.WriteLine(5 ^ 3) 'print exponent
+        Console.WriteLine()
+
+        'concatenation operator
+        Console.WriteLine("5" & " " & "+" & " 3" & " = " & "8") 'print a string
+        Console.WriteLine()
+        Console.WriteLine("wake up neo..." & vbNewLine & "follow the white rabbit...")
+        Console.WriteLine(StrDup(10, "*"))
+
+
     End Sub
 
 End Module
